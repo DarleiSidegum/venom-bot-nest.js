@@ -1,0 +1,26 @@
+2023/10/10-16:13:38.061 164c Reusing MANIFEST C:\Projetos\meus projetos\venon-chat\tokens\session-name\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/10/10-16:13:38.061 164c Recovering log #101
+2023/10/10-16:13:38.073 164c Reusing old log C:\Projetos\meus projetos\venon-chat\tokens\session-name\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000101.log 
+2023/10/10-16:13:48.372 2b9c Manual compaction at level-0 from '\x00\x1a\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x1b\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/10/10-16:13:48.374 2b9c Level-0 table #110: started
+2023/10/10-16:13:48.391 2b9c Level-0 table #110: 667003 bytes OK
+2023/10/10-16:13:48.393 2b9c Delete type=0 #101
+2023/10/10-16:13:48.393 164c Manual compaction at level-0 from '\x00\x1b\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x1c\x00\x00\x00' @ 0 : 0; will stop at '\x00\x1b\x00\x00\x05' @ 314353 : 1
+2023/10/10-16:13:48.394 164c Compacting 1@0 + 3@1 files
+2023/10/10-16:13:48.435 164c Generated table #111@0: 12165 keys, 2178573 bytes
+2023/10/10-16:13:48.481 164c Generated table #112@0: 20507 keys, 2211720 bytes
+2023/10/10-16:13:48.508 164c Generated table #113@0: 24307 keys, 976945 bytes
+2023/10/10-16:13:48.508 164c Compacted 1@0 + 3@1 files => 5367238 bytes
+2023/10/10-16:13:48.509 164c compacted to: files[ 0 3 1 0 0 0 0 ]
+2023/10/10-16:13:48.509 164c Delete type=2 #110
+2023/10/10-16:13:48.510 164c Manual compaction at level-0 from '\x00\x1b\x00\x00\x05' @ 314353 : 1 .. '\x00\x1c\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/10/10-16:13:49.031 3960 Compacting 1@1 + 1@2 files
+2023/10/10-16:13:49.073 3960 Generated table #114@1: 22527 keys, 2194095 bytes
+2023/10/10-16:13:49.088 3960 Generated table #115@1: 2522 keys, 1200926 bytes
+2023/10/10-16:13:49.088 3960 Compacted 1@1 + 1@2 files => 3395021 bytes
+2023/10/10-16:13:49.091 3960 compacted to: files[ 0 2 2 0 0 0 0 ]
+2023/10/10-16:13:49.091 3960 Delete type=2 #104
+2023/10/10-16:13:49.091 3960 Delete type=2 #105
+2023/10/10-16:13:49.091 3960 Delete type=2 #106
+2023/10/10-16:13:49.091 3960 Delete type=2 #107
+2023/10/10-16:13:49.091 3960 Delete type=2 #111
