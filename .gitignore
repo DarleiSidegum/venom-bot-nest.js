@@ -33,3 +33,4 @@ lerna-debug.log*
 .env.production
 src.zip
 tokens
+baileys_auth_info
