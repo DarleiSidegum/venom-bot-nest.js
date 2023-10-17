@@ -102,10 +102,10 @@ export class CreateMessage implements OnModuleInit {
         this.wsocket.ev.on(
             "connection.update",
             async ({ connection, lastDisconnect, qr }) => {
-                loggerBaileys.info(
+                this.logger.log(
                 `Socket teste Connection Update ${connection || ""} ${
                   lastDisconnect || ""
-                }`
+                }`, 'teste'
               );
 
               const disconect = lastDisconnect?.error?.['output']?.statusCode;
@@ -140,7 +140,7 @@ export class CreateMessage implements OnModuleInit {
                 //     session: whatsapp
                 //   });
                 //   removeWbot(id, false);
-                  setTimeout(() => this.start(), 2000);
+                //   setTimeout(() => this.start(), 2000);
                 }
               }
 
@@ -253,6 +253,7 @@ export class CreateMessage implements OnModuleInit {
     }
 
     async onModuleInit() {
+        console.log('aqui');
         await this.start();
     }
 }
